@@ -1,0 +1,37 @@
+﻿<html>
+<head>
+    <title>Safe error: renderer crash</title>
+</head>
+<body>
+
+<!-- Runtime version and arguments -->
+<div>
+    <small>Version: <span id="runtime-version"></span>. </small>
+    <small>Arguments: <span id="runtime-args"></span></small>
+</div>
+
+<h3>Safe error: renderer crash</h3>
+<button onclick="crashRenderer()">Crash renderer</button>
+
+<script>
+    fin.desktop.main(() => {
+
+        /**
+         * Populate with runtime version and arguments
+         */
+        var app = fin.desktop.Application.getCurrent();
+        app.getManifest(function(manifest) {
+            document.querySelector('#runtime-version').innerText = manifest.runtime.version;
+            document.querySelector('#runtime-args').innerText = manifest.runtime.arguments || 'None';
+        });
+
+    });
+
+    function crashRenderer() {
+        const a = [];
+        while (1) a.push(Math.random());
+    }
+</script>
+
+</body>
+</html>

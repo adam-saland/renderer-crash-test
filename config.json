@@ -1,0 +1,13 @@
+{
+  "licenseKey":"64605fac-add3-48a0-8710-64b38e96a2dd",
+  "runtime": {
+    "version": "stable",
+    "arguments": ""
+  },
+  "startup_app": {
+    "name": "safe_error_renderer_crash",
+    "uuid": "safe_error_renderer_crash",
+    "url": "",
+    "autoShow": true
+  }
+}
