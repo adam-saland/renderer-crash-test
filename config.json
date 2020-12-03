@@ -1,13 +1,13 @@
 {
   "licenseKey":"64605fac-add3-48a0-8710-64b38e96a2dd",
   "runtime": {
-    "version": "stable",
-    "arguments": ""
+    "version": "16.83.53.26",
+    "arguments": "--v=1 --diagnostics --no-sandbox --allow-no-sandbox-job --enable-crash-reporting "
   },
   "startup_app": {
     "name": "safe_error_renderer_crash",
     "uuid": "safe_error_renderer_crash",
-    "url": "",
+    "url": "https://adam-saland.github.io/renderer-crash-test/",
     "autoShow": true
   }
 }
