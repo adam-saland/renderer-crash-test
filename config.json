@@ -1,8 +1,8 @@
 {
   "licenseKey":"64605fac-add3-48a0-8710-64b38e96a2dd",
   "runtime": {
-    "version": "16.83.53.26",
-    "arguments": "--v=1 --diagnostics --no-sandbox --allow-no-sandbox-job --enable-crash-reporting "
+    "version": "stable",
+    "arguments": "--v=1 --diagnostics"
   },
   "startup_app": {
     "name": "safe_error_renderer_crash",
